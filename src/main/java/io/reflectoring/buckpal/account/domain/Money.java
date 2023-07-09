@@ -26,7 +26,7 @@ public class Money {
 	}
 
 	public boolean isGreaterThanOrEqualTo(Money money){
-		return this.amount.compareTo(money.amount) >= 0;
+		return this.amount.compareTo(money.amount)>= 0;
 	}
 
 	public boolean isGreaterThan(Money money){
